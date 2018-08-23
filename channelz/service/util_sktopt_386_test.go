@@ -21,7 +21,7 @@
 package service
 
 import (
-	"golang.org/x/sys/unix"
+	"github.com/sunnogo/sys/unix"
 	channelzpb "github.com/sunnogo/grpc-go/channelz/grpc_channelz_v1"
 )
 

@@ -33,7 +33,7 @@ import (
 	"github.com/sunnogo/protobuf/ptypes"
 	durpb "github.com/sunnogo/protobuf/ptypes/duration"
 	"github.com/sunnogo/net/context"
-	"golang.org/x/sys/unix"
+	"github.com/sunnogo/sys/unix"
 	channelzpb "github.com/sunnogo/grpc-go/channelz/grpc_channelz_v1"
 	"github.com/sunnogo/grpc-go/internal/channelz"
 )

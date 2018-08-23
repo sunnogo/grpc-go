@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/sunnogo/net/context"
-	"golang.org/x/oauth2"
+	"github.com/sunnogo/oauth2"
 	"github.com/sunnogo/grpc-go"
 	"github.com/sunnogo/grpc-go/credentials"
 	"github.com/sunnogo/grpc-go/credentials/oauth"
@@ -64,7 +64,7 @@ func main() {
 
 // fetchToken simulates a token lookup and omits the details of proper token
 // acquisition. For examples of how to acquire an OAuth2 token, see:
-// https://godoc.org/golang.org/x/oauth2
+// https://godoc.org/github.com/sunnogo/oauth2
 func fetchToken() *oauth2.Token {
 	return &oauth2.Token{
 		AccessToken: "some-secret-token",

@@ -29,8 +29,8 @@ import (
 
 	"github.com/sunnogo/protobuf/proto"
 	"github.com/sunnogo/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/google"
 	"github.com/sunnogo/grpc-go"
 	"github.com/sunnogo/grpc-go/codes"
 	"github.com/sunnogo/grpc-go/grpclog"

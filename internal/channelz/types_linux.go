@@ -23,7 +23,7 @@ package channelz
 import (
 	"syscall"
 
-	"golang.org/x/sys/unix"
+	"github.com/sunnogo/sys/unix"
 )
 
 // SocketOptionData defines the struct to hold socket option data, and related

@@ -25,9 +25,9 @@ import (
 	"sync"
 
 	"github.com/sunnogo/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
-	"golang.org/x/oauth2/jwt"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/google"
+	"github.com/sunnogo/oauth2/jwt"
 	"github.com/sunnogo/grpc-go/credentials"
 )
 

@@ -30,7 +30,7 @@ import (
 	"syscall"
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/sunnogo/sys/unix"
 	"github.com/sunnogo/grpc-go/internal/channelz"
 )
 
