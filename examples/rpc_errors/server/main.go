@@ -25,7 +25,7 @@ import (
 	"sync"
 
 	"github.com/sunnogo/net/context"
-	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
+	epb "github.com/sunnogo/go-genproto/googleapis/rpc/errdetails"
 	"github.com/sunnogo/grpc-go"
 	"github.com/sunnogo/grpc-go/codes"
 	pb "github.com/sunnogo/grpc-go/examples/helloworld/helloworld"

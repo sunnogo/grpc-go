@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/sunnogo/net/context"
-	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
+	epb "github.com/sunnogo/go-genproto/googleapis/rpc/errdetails"
 	"github.com/sunnogo/grpc-go"
 	pb "github.com/sunnogo/grpc-go/examples/helloworld/helloworld"
 	"github.com/sunnogo/grpc-go/status"

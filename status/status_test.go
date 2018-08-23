@@ -29,9 +29,9 @@ import (
 	apb "github.com/sunnogo/protobuf/ptypes/any"
 	dpb "github.com/sunnogo/protobuf/ptypes/duration"
 	"github.com/sunnogo/net/context"
-	cpb "google.golang.org/genproto/googleapis/rpc/code"
-	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
+	cpb "github.com/sunnogo/go-genproto/googleapis/rpc/code"
+	epb "github.com/sunnogo/go-genproto/googleapis/rpc/errdetails"
+	spb "github.com/sunnogo/go-genproto/googleapis/rpc/status"
 	"github.com/sunnogo/grpc-go/codes"
 )
 

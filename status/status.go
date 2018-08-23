@@ -33,7 +33,7 @@ import (
 
 	"github.com/sunnogo/protobuf/proto"
 	"github.com/sunnogo/protobuf/ptypes"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
+	spb "github.com/sunnogo/go-genproto/googleapis/rpc/status"
 	"github.com/sunnogo/grpc-go/codes"
 )
 

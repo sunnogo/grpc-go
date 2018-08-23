@@ -45,7 +45,7 @@ import (
 	anypb "github.com/sunnogo/protobuf/ptypes/any"
 	"github.com/sunnogo/net/context"
 	"github.com/sunnogo/net/http2"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
+	spb "github.com/sunnogo/go-genproto/googleapis/rpc/status"
 	"github.com/sunnogo/grpc-go"
 	"github.com/sunnogo/grpc-go/balancer/roundrobin"
 	"github.com/sunnogo/grpc-go/codes"

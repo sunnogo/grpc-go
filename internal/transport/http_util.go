@@ -34,7 +34,7 @@ import (
 	"github.com/sunnogo/protobuf/proto"
 	"github.com/sunnogo/net/http2"
 	"github.com/sunnogo/net/http2/hpack"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
+	spb "github.com/sunnogo/go-genproto/googleapis/rpc/status"
 	"github.com/sunnogo/grpc-go/codes"
 	"github.com/sunnogo/grpc-go/status"
 )

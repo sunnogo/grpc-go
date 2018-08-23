@@ -33,7 +33,7 @@ import (
 	"github.com/sunnogo/protobuf/proto"
 	dpb "github.com/sunnogo/protobuf/ptypes/duration"
 	"github.com/sunnogo/net/context"
-	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
+	epb "github.com/sunnogo/go-genproto/googleapis/rpc/errdetails"
 	"github.com/sunnogo/grpc-go/codes"
 	"github.com/sunnogo/grpc-go/metadata"
 	"github.com/sunnogo/grpc-go/status"
