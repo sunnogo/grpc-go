@@ -25,10 +25,10 @@ import (
 	"net"
 	"strings"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/resolver"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/connectivity"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/resolver"
 )
 
 var (

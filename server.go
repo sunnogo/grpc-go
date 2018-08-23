@@ -35,21 +35,21 @@ import (
 
 	"io/ioutil"
 
-	"golang.org/x/net/context"
-	"golang.org/x/net/trace"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/net/trace"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/encoding"
-	"google.golang.org/grpc/encoding/proto"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/tap"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/encoding"
+	"github.com/sunnogo/grpc-go/encoding/proto"
+	"github.com/sunnogo/grpc-go/grpclog"
+	"github.com/sunnogo/grpc-go/internal/channelz"
+	"github.com/sunnogo/grpc-go/internal/transport"
+	"github.com/sunnogo/grpc-go/keepalive"
+	"github.com/sunnogo/grpc-go/metadata"
+	"github.com/sunnogo/grpc-go/stats"
+	"github.com/sunnogo/grpc-go/status"
+	"github.com/sunnogo/grpc-go/tap"
 )
 
 const (

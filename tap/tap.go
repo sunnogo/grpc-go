@@ -21,7 +21,7 @@
 package tap
 
 import (
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 // Info defines the relevant information needed by the handles.

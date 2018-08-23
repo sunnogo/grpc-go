@@ -22,8 +22,8 @@
 package connectivity
 
 import (
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/grpclog"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/grpclog"
 )
 
 // State indicates the state of connectivity.

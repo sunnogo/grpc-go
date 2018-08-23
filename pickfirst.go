@@ -19,11 +19,11 @@
 package grpc
 
 import (
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/resolver"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/balancer"
+	"github.com/sunnogo/grpc-go/connectivity"
+	"github.com/sunnogo/grpc-go/grpclog"
+	"github.com/sunnogo/grpc-go/resolver"
 )
 
 // PickFirstBalancerName is the name of the pick_first balancer.

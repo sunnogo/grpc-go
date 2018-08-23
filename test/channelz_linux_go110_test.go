@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/leakcheck"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/sunnogo/grpc-go/internal/channelz"
+	"github.com/sunnogo/grpc-go/internal/leakcheck"
+	testpb "github.com/sunnogo/grpc-go/test/grpc_testing"
 )
 
 func TestCZSocketMetricsSocketOption(t *testing.T) {

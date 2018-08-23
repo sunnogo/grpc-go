@@ -23,11 +23,11 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/grpc-go"
+	pb "github.com/sunnogo/grpc-go/examples/helloworld/helloworld"
+	"github.com/sunnogo/grpc-go/status"
 )
 
 func main() {

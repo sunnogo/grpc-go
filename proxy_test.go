@@ -29,8 +29,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/internal/leakcheck"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/internal/leakcheck"
 )
 
 const (

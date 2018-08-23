@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/resolver"
+	"github.com/sunnogo/grpc-go/internal/leakcheck"
+	"github.com/sunnogo/grpc-go/resolver"
 )
 
 func TestMain(m *testing.M) {

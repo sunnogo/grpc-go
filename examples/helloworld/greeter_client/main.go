@@ -23,9 +23,9 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
+	pb "github.com/sunnogo/grpc-go/examples/helloworld/helloworld"
 )
 
 const (

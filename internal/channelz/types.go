@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
+	"github.com/sunnogo/grpc-go/connectivity"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/grpclog"
 )
 
 // entry represents a node in the channelz database.

@@ -24,11 +24,11 @@ package roundrobin
 import (
 	"sync"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/resolver"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/balancer"
+	"github.com/sunnogo/grpc-go/balancer/base"
+	"github.com/sunnogo/grpc-go/grpclog"
+	"github.com/sunnogo/grpc-go/resolver"
 )
 
 // Name is the name of round_robin balancer.

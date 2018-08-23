@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	_ "google.golang.org/grpc/grpclog/glogger"
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/naming"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/codes"
+	_ "github.com/sunnogo/grpc-go/grpclog/glogger"
+	"github.com/sunnogo/grpc-go/internal/leakcheck"
+	"github.com/sunnogo/grpc-go/naming"
+	"github.com/sunnogo/grpc-go/status"
 
 	// V1 balancer tests use passthrough resolver instead of dns.
 	// TODO(bar) remove this when removing v1 balaner entirely.
 
-	_ "google.golang.org/grpc/resolver/passthrough"
+	_ "github.com/sunnogo/grpc-go/resolver/passthrough"
 )
 
 type testWatcher struct {

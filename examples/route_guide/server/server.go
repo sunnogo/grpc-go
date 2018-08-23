@@ -36,15 +36,15 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/testdata"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/testdata"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 
-	pb "google.golang.org/grpc/examples/route_guide/routeguide"
+	pb "github.com/sunnogo/grpc-go/examples/route_guide/routeguide"
 )
 
 var (

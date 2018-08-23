@@ -31,8 +31,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/peer"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/peer"
 )
 
 const (

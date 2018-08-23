@@ -24,12 +24,12 @@ import (
 	"net"
 	"sync"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/codes"
+	pb "github.com/sunnogo/grpc-go/examples/helloworld/helloworld"
+	"github.com/sunnogo/grpc-go/status"
 )
 
 const (

@@ -23,7 +23,7 @@ package naming
 import (
 	"net"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 var (

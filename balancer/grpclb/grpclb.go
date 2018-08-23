@@ -21,7 +21,7 @@
 // Package grpclb defines a grpclb balancer.
 //
 // To install grpclb balancer, import this package as:
-//    import _ "google.golang.org/grpc/balancer/grpclb"
+//    import _ "github.com/sunnogo/grpc-go/balancer/grpclb"
 package grpclb
 
 import (
@@ -31,15 +31,15 @@ import (
 	"sync"
 	"time"
 
-	durationpb "github.com/golang/protobuf/ptypes/duration"
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	lbpb "google.golang.org/grpc/balancer/grpclb/grpc_lb_v1"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/resolver"
+	durationpb "github.com/sunnogo/protobuf/ptypes/duration"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/balancer"
+	lbpb "github.com/sunnogo/grpc-go/balancer/grpclb/grpc_lb_v1"
+	"github.com/sunnogo/grpc-go/connectivity"
+	"github.com/sunnogo/grpc-go/grpclog"
+	"github.com/sunnogo/grpc-go/internal/backoff"
+	"github.com/sunnogo/grpc-go/resolver"
 )
 
 const (

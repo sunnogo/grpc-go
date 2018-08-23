@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/leakcheck"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/internal/leakcheck"
 
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	testpb "github.com/sunnogo/grpc-go/test/grpc_testing"
 )
 
 type delayListener struct {

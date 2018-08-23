@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/ptypes"
-	"golang.org/x/net/context"
-	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/channelz"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/protobuf/ptypes"
+	"github.com/sunnogo/net/context"
+	channelzpb "github.com/sunnogo/grpc-go/channelz/grpc_channelz_v1"
+	"github.com/sunnogo/grpc-go/connectivity"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/internal/channelz"
 )
 
 func init() {

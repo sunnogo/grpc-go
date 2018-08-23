@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	_ "google.golang.org/grpc/grpclog/glogger"
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/internal/transport"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/balancer"
+	"github.com/sunnogo/grpc-go/connectivity"
+	_ "github.com/sunnogo/grpc-go/grpclog/glogger"
+	"github.com/sunnogo/grpc-go/internal/leakcheck"
+	"github.com/sunnogo/grpc-go/internal/transport"
 )
 
 const goroutineCount = 5

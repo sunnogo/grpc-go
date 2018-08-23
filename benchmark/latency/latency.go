@@ -29,7 +29,7 @@ import (
 	"net"
 	"time"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 // Dialer is a function matching the signature of net.Dial.

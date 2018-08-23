@@ -25,16 +25,16 @@ import (
 	"net"
 	"time"
 
-	"github.com/golang/protobuf/ptypes"
-	durpb "github.com/golang/protobuf/ptypes/duration"
-	wrpb "github.com/golang/protobuf/ptypes/wrappers"
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	channelzgrpc "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/channelz"
+	"github.com/sunnogo/protobuf/ptypes"
+	durpb "github.com/sunnogo/protobuf/ptypes/duration"
+	wrpb "github.com/sunnogo/protobuf/ptypes/wrappers"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
+	channelzgrpc "github.com/sunnogo/grpc-go/channelz/grpc_channelz_v1"
+	channelzpb "github.com/sunnogo/grpc-go/channelz/grpc_channelz_v1"
+	"github.com/sunnogo/grpc-go/connectivity"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/internal/channelz"
 )
 
 func convertToPtypesDuration(sec int64, usec int64) *durpb.Duration {

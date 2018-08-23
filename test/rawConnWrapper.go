@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/http2"
-	"golang.org/x/net/http2/hpack"
+	"github.com/sunnogo/net/http2"
+	"github.com/sunnogo/net/http2/hpack"
 )
 
 type listenerWrapper struct {

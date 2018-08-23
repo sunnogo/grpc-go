@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"testing"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 func TestPairsMD(t *testing.T) {

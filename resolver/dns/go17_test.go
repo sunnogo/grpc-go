@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"net"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 var errForInvalidTarget = fmt.Errorf("invalid target address [2001:db8:a0b:12f0::1, error info: missing ']' in address [2001:db8:a0b:12f0::1:443")

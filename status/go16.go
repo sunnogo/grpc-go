@@ -21,8 +21,8 @@
 package status
 
 import (
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/codes"
 )
 
 // FromContextError converts a context error into a Status.  It returns a

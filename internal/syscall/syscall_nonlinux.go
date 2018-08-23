@@ -20,7 +20,7 @@
 
 package syscall
 
-import "google.golang.org/grpc/grpclog"
+import "github.com/sunnogo/grpc-go/grpclog"
 
 func init() {
 	grpclog.Info("CPU time info is unavailable on non-linux or appengine environment.")

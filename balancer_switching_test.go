@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/connectivity"
-	_ "google.golang.org/grpc/grpclog/glogger"
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/balancer"
+	"github.com/sunnogo/grpc-go/balancer/roundrobin"
+	"github.com/sunnogo/grpc-go/connectivity"
+	_ "github.com/sunnogo/grpc-go/grpclog/glogger"
+	"github.com/sunnogo/grpc-go/internal/leakcheck"
+	"github.com/sunnogo/grpc-go/resolver"
+	"github.com/sunnogo/grpc-go/resolver/manual"
 )
 
 var _ balancer.Builder = &magicalLB{}

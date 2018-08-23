@@ -29,14 +29,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/tap"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/keepalive"
+	"github.com/sunnogo/grpc-go/metadata"
+	"github.com/sunnogo/grpc-go/stats"
+	"github.com/sunnogo/grpc-go/status"
+	"github.com/sunnogo/grpc-go/tap"
 )
 
 // recvMsg represents the received msg from the transport. All transport

@@ -29,11 +29,11 @@ import (
 	"math/rand"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	pb "google.golang.org/grpc/examples/route_guide/routeguide"
-	"google.golang.org/grpc/testdata"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/credentials"
+	pb "github.com/sunnogo/grpc-go/examples/route_guide/routeguide"
+	"github.com/sunnogo/grpc-go/testdata"
 )
 
 var (

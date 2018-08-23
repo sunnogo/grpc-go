@@ -31,11 +31,11 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/resolver"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/grpclog"
+	"github.com/sunnogo/grpc-go/internal/backoff"
+	"github.com/sunnogo/grpc-go/internal/grpcrand"
+	"github.com/sunnogo/grpc-go/resolver"
 )
 
 func init() {

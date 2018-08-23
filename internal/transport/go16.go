@@ -24,10 +24,10 @@ import (
 	"net"
 	"net/http"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/status"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 // dialContext connects to the address on the named network.

@@ -36,13 +36,13 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
-	"golang.org/x/net/http2"
-	"golang.org/x/net/http2/hpack"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/net/http2"
+	"github.com/sunnogo/net/http2/hpack"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/internal/leakcheck"
+	"github.com/sunnogo/grpc-go/keepalive"
+	"github.com/sunnogo/grpc-go/status"
 )
 
 type server struct {

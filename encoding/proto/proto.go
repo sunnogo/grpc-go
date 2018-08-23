@@ -24,8 +24,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/encoding"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/grpc-go/encoding"
 )
 
 // Name is the name registered for the proto compressor.

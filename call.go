@@ -19,7 +19,7 @@
 package grpc
 
 import (
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 // Invoke sends the RPC request on the wire and returns after response is

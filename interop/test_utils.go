@@ -27,16 +27,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	"golang.org/x/net/context"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/grpclog"
+	testpb "github.com/sunnogo/grpc-go/interop/grpc_testing"
+	"github.com/sunnogo/grpc-go/metadata"
+	"github.com/sunnogo/grpc-go/status"
 )
 
 var (

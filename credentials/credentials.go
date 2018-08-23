@@ -20,7 +20,7 @@
 // which encapsulate all the state needed by a client to authenticate with a
 // server and make various assertions, e.g., about the client's identity, role,
 // or whether it is authorized to make a particular call.
-package credentials // import "google.golang.org/grpc/credentials"
+package credentials // import "github.com/sunnogo/grpc-go/credentials"
 
 import (
 	"crypto/tls"
@@ -31,8 +31,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/golang/protobuf/proto"
-	"golang.org/x/net/context"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/net/context"
 )
 
 // alpnProtoStr are the specified application level protocols for gRPC.

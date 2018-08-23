@@ -24,12 +24,12 @@ import (
 	"log"
 	"time"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 	"golang.org/x/oauth2"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/oauth"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/credentials/oauth"
+	pb "github.com/sunnogo/grpc-go/examples/helloworld/helloworld"
 )
 
 func main() {
@@ -38,7 +38,7 @@ func main() {
 		// In addition to the following grpc.DialOption, callers may also use
 		// the grpc.CallOption grpc.PerRPCCredentials with the RPC invocation
 		// itself.
-		// See: https://godoc.org/google.golang.org/grpc#PerRPCCredentials
+		// See: https://godoc.org/github.com/sunnogo/grpc-go#PerRPCCredentials
 		grpc.WithPerRPCCredentials(perRPC),
 		// oauth.NewOauthAccess requires the configuration of transport
 		// credentials.

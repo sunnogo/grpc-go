@@ -29,22 +29,22 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/net/context"
-	"golang.org/x/net/trace"
-	"google.golang.org/grpc/balancer"
-	_ "google.golang.org/grpc/balancer/roundrobin" // To register roundrobin.
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/resolver"
-	_ "google.golang.org/grpc/resolver/dns"         // To register dns resolver.
-	_ "google.golang.org/grpc/resolver/passthrough" // To register passthrough resolver.
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/net/trace"
+	"github.com/sunnogo/grpc-go/balancer"
+	_ "github.com/sunnogo/grpc-go/balancer/roundrobin" // To register roundrobin.
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/connectivity"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/grpclog"
+	"github.com/sunnogo/grpc-go/internal/backoff"
+	"github.com/sunnogo/grpc-go/internal/channelz"
+	"github.com/sunnogo/grpc-go/internal/transport"
+	"github.com/sunnogo/grpc-go/keepalive"
+	"github.com/sunnogo/grpc-go/resolver"
+	_ "github.com/sunnogo/grpc-go/resolver/dns"         // To register dns resolver.
+	_ "github.com/sunnogo/grpc-go/resolver/passthrough" // To register passthrough resolver.
+	"github.com/sunnogo/grpc-go/status"
 )
 
 const (
